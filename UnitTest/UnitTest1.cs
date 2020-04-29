@@ -53,7 +53,13 @@ namespace UnitTest
             //tech intern 
             driver.FindElement(By.XPath("/html/body/div[4]/div[1]/div/div/div[5]/ul/li[2]/a/img")).Click();
             Thread.Sleep(4000);
-         
+
+            // Switch tab
+            driver.SwitchTo().Window(driver.WindowHandles[1]);
+            Thread.Sleep(4000);
+
+            driver.Close();
+            Thread.Sleep(4000);
             // Quit the driver
             Thread.Sleep(3000);
             driver.Quit();

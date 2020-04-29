@@ -6,22 +6,16 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UnitTest" expanded="True" selected="True">
-            <Node name="UnitTest" expanded="True" />
+          <Node name="UnitTest" expanded="True">
+            <Node name="UnitTest" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="UnitTest" expanded="True">
-            <Node name="UnitTest" expanded="True">
-              <Node name="UnitTest" expanded="True">
-                <Node name="UnitTest1" expanded="True">
-                  <Node name="TestMethod1" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="UnitTest" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
